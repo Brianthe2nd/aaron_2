@@ -21,7 +21,7 @@ def send_zipped_file(zip_file):
         dbx = dropbox.Dropbox(access_token)
     else:
         # First time - authenticate with browser
-        auth_flow = dropbox.DropboxOAuth2FlowNoRedirect(app_key, app_secret)
+        auth_flow = dropbox.DropboxOAuth2FlowNoRedirect(app_key, app_secret , token_access_type="offline")
         print("Go to:", auth_flow.start())
         auth_code = input("Enter code: ")
         oauth_result = auth_flow.finish(auth_code)
@@ -43,6 +43,7 @@ def send_zipped_file(zip_file):
     return link.url
 
 
+send_zipped_file("run.bash")
 
 # send_zipped_file(
 #     key_file="C://users/Brayo/Downloads/my_c71.pem",

@@ -167,6 +167,7 @@ if __name__ == "__main__":
     Print("Running this frame took : ",time.time() - start)
     Print("Video title is : ",title)
     Print("Stream is live : ",frame)
+    download_stream("https://www.youtube.com/watch?v=jFtIa_AEFiA", title)
     # cv2.imshow("frame",frame)
     # cv2.waitKey(0)
     
