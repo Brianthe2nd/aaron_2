@@ -62,7 +62,7 @@ echo "Printing git version"
 git --version
 
 # Clone the repos (replace with your repo URLs)
-REPO_URL="https://github.com/Brianthe2nd/topstep_study.git"
+REPO_URL="https://github.com/Brianthe2nd/aaron_2.git"
 
 REPO_NAME=$(basename "$REPO_URL" .git)
 
