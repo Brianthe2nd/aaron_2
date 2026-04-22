@@ -7,7 +7,7 @@ import os
 
 
 if __name__ == "__main__":
-    df = pd.read_csv('jay_streams_2026.csv')
+    df = pd.read_csv('aaron_streams_2026.csv')
     for index, row in df.iterrows():
         url = row['url']
         title = row['title']
