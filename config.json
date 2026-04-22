@@ -1,0 +1,64 @@
+{
+    "trader_name": "ray.png",
+    "trader_accuracy": 0.9424139857292175,
+    "trader_method": "resized",
+    "trader_scale": 1.4500000000000002,
+    "jd": {
+        "best_search_logo_height": 13,
+        "best_search_logo_match": 0.8593063950538635,
+        "used_search": true
+    },
+    "jay": {
+        "best_search_logo_height": 10,
+        "best_search_logo_match": 0.6002352833747864,
+        "used_search": true
+    },
+    "vince": {
+        "best_search_logo_height": 10,
+        "best_search_logo_match": 0.528742790222168,
+        "used_search": true
+    },
+    "hoag": {
+        "best_search_logo_height": 14,
+        "best_search_logo_match": 0.8795632719993591,
+        "used_search": true
+    },
+    "dakota": {
+        "best_search_logo_height": 15,
+        "best_search_logo_match": 0.786373496055603,
+        "used_search": true
+    },
+    "ray": {
+        "best_search_logo_height": 22,
+        "best_search_logo_match": 0.8167316317558289,
+        "used_search": true
+    },
+    "mandy": {
+        "best_search_logo_height": 18,
+        "best_search_logo_match": 0.7624703645706177,
+        "used_search": true
+    },
+    "anne": {
+        "best_search_logo_height": 13,
+        "best_search_logo_match": 0.7329264879226685,
+        "used_search": true
+    },
+    "hoop": {
+        "best_search_logo_height": 12,
+        "best_search_logo_match": 0.7942324876785278,
+        "used_search": true
+    },
+    "andre": {
+        "best_search_logo_height": 14,
+        "best_search_logo_match": 0.8673104643821716,
+        "used_search": true
+    },
+    "Jay": {
+        "best_logo_height": 20,
+        "best_logo_match": 0.5392613410949707,
+        "used_search": false,
+        "best_search_logo_height": 11,
+        "best_search_logo_match": 0.5968118906021118,
+        "is_alt": true
+    }
+}

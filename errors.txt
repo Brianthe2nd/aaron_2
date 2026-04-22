@@ -1,0 +1,1956 @@
+2026-01-10T14:39:32.455158 -Frame 150- Cannot crop frame: logo info missing
+2026-01-10T14:39:34.401251 -Frame 300- Cannot crop frame: logo info missing
+2026-01-10T14:39:36.199957 -Frame 450- [ERROR in main] slice indices must be integers or None or have an __index__ method
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 818, in process_frame
+    frame = crop_frame(or_frame, logo_loc, logo_size,name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/main.py", line 592, in crop_frame
+    frame = crop_dee(image,logo_size)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/main.py", line 585, in crop_dee
+    frame[y_start:frame_height, 0:x_end] = (0, 0, 0)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: slice indices must be integers or None or have an __index__ method
+
+2026-01-10T14:39:37.922185 -Frame 600- [ERROR in main] slice indices must be integers or None or have an __index__ method
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 818, in process_frame
+    frame = crop_frame(or_frame, logo_loc, logo_size,name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/main.py", line 592, in crop_frame
+    frame = crop_dee(image,logo_size)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/main.py", line 585, in crop_dee
+    frame[y_start:frame_height, 0:x_end] = (0, 0, 0)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: slice indices must be integers or None or have an __index__ method
+
+2026-01-10T14:39:40.131285 -Frame 750- Cannot crop frame: logo info missing
+2026-01-10T14:39:42.041706 -Frame 900- Cannot crop frame: logo info missing
+2026-01-10T14:39:43.870418 -Frame 1050- Cannot crop frame: logo info missing
+2026-01-10T14:39:45.786069 -Frame 1200- Cannot crop frame: logo info missing
+2026-01-10T14:39:48.215150 -Frame 1350- Cannot crop frame: logo info missing
+2026-01-10T14:39:50.789706 -Frame 1500- Cannot crop frame: logo info missing
+2026-01-10T14:39:53.123756 -Frame 1650- Cannot crop frame: logo info missing
+2026-01-10T14:39:55.387193 -Frame 1800- Cannot crop frame: logo info missing
+2026-01-10T14:39:58.902897 -Frame 1950- [ERROR in main] slice indices must be integers or None or have an __index__ method
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 818, in process_frame
+    frame = crop_frame(or_frame, logo_loc, logo_size,name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/main.py", line 592, in crop_frame
+    frame = crop_dee(image,logo_size)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/main.py", line 585, in crop_dee
+    frame[y_start:frame_height, 0:x_end] = (0, 0, 0)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: slice indices must be integers or None or have an __index__ method
+
+2026-01-10T14:40:02.931446 -Frame 2100- Cannot crop frame: logo info missing
+2026-01-10T14:40:06.946518 -Frame 2250- Cannot crop frame: logo info missing
+2026-01-10T16:48:12.795802 -Frame 133650- [ERROR in main] OpenCV(4.12.0) /tmp/pip-install-4d2afz8t/opencv-python_1e9b26e54a0f4efda80df0beb0a90ab6/opencv/modules/imgcodecs/src/loadsave.cpp:1146: error: (-215:Assertion failed) !_img.empty() in function 'imwrite'
+
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 844, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 81, in get_data
+    cv2.imwrite(f"screen_{i}.png",screen_image)
+cv2.error: OpenCV(4.12.0) /tmp/pip-install-4d2afz8t/opencv-python_1e9b26e54a0f4efda80df0beb0a90ab6/opencv/modules/imgcodecs/src/loadsave.cpp:1146: error: (-215:Assertion failed) !_img.empty() in function 'imwrite'
+
+
+2026-01-10T16:54:36.311424 -Frame 143400- [ERROR in main] slice indices must be integers or None or have an __index__ method
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 818, in process_frame
+    frame = crop_frame(or_frame, logo_loc, logo_size,name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/main.py", line 592, in crop_frame
+    frame = crop_dee(image,logo_size)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/main.py", line 585, in crop_dee
+    frame[y_start:frame_height, 0:x_end] = (0, 0, 0)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: slice indices must be integers or None or have an __index__ method
+
+2026-01-10T16:54:38.957063 -Frame 143550- Cannot crop frame: logo info missing
+2026-01-10T16:54:41.818963 -Frame 143700- Cannot crop frame: logo info missing
+2026-01-10T16:54:44.824737 -Frame 143850- Cannot crop frame: logo info missing
+2026-01-10T16:54:47.588778 -Frame 144000- Cannot crop frame: logo info missing
+2026-01-10T16:54:50.176402 -Frame 144150- Cannot crop frame: logo info missing
+2026-01-10T16:54:52.741244 -Frame 144300- Cannot crop frame: logo info missing
+2026-01-10T16:54:55.120412 -Frame 144450- Cannot crop frame: logo info missing
+2026-01-10T16:54:57.703710 -Frame 144600- Cannot crop frame: logo info missing
+2026-01-10T16:55:00.497963 -Frame 144750- Cannot crop frame: logo info missing
+2026-01-10T16:55:03.167238 -Frame 144900- Cannot crop frame: logo info missing
+2026-01-10T16:55:05.894979 -Frame 145050- Cannot crop frame: logo info missing
+2026-01-10T16:55:08.469632 -Frame 145200- Cannot crop frame: logo info missing
+2026-01-10T16:55:10.909495 -Frame 145350- Cannot crop frame: logo info missing
+2026-01-10T16:55:13.470006 -Frame 145500- Cannot crop frame: logo info missing
+2026-01-10T16:55:16.018531 -Frame 145650- [ERROR in main] slice indices must be integers or None or have an __index__ method
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 818, in process_frame
+    frame = crop_frame(or_frame, logo_loc, logo_size,name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/main.py", line 592, in crop_frame
+    frame = crop_dee(image,logo_size)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/main.py", line 585, in crop_dee
+    frame[y_start:frame_height, 0:x_end] = (0, 0, 0)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: slice indices must be integers or None or have an __index__ method
+
+2026-01-10T16:55:18.537699 -Frame 145800- Cannot crop frame: logo info missing
+2026-01-10T16:55:21.219076 -Frame 145950- Cannot crop frame: logo info missing
+2026-01-10T16:55:23.903043 -Frame 146100- Cannot crop frame: logo info missing
+2026-01-10T16:55:26.821573 -Frame 146250- Cannot crop frame: logo info missing
+2026-01-10T16:55:29.636229 -Frame 146400- Cannot crop frame: logo info missing
+2026-01-10T16:55:32.354424 -Frame 146550- Cannot crop frame: logo info missing
+2026-01-10T16:55:34.896480 -Frame 146700- Cannot crop frame: logo info missing
+2026-01-10T16:55:37.682927 -Frame 146850- Cannot crop frame: logo info missing
+2026-01-10T16:55:40.291050 -Frame 147000- Cannot crop frame: logo info missing
+2026-01-10T16:55:42.902047 -Frame 147150- Cannot crop frame: logo info missing
+2026-01-10T16:55:45.442166 -Frame 147300- Cannot crop frame: logo info missing
+2026-01-10T16:55:48.016733 -Frame 147450- Cannot crop frame: logo info missing
+2026-01-10T19:03:36.121952 -Frame 0- Cannot crop frame: logo info missing
+2026-01-28T11:31:58.765288 -Frame 0- [ERROR in main] cannot access local variable 'point' where it is not associated with a value
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 844, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 382, in process_points
+    screens_data = process_multi_points(pairs,image,screens_data,logo_size,logo_loc,trader,y)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 287, in process_multi_points
+    pairs.append((pair, point ,x_divider))
+                        ^^^^^
+UnboundLocalError: cannot access local variable 'point' where it is not associated with a value
+
+2026-01-28T11:33:22.524085 -Frame 0- [ERROR in main] cannot access local variable 'x_divider' where it is not associated with a value
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 844, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 382, in process_points
+    screens_data = process_multi_points(pairs,image,screens_data,logo_size,logo_loc,trader,y)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 287, in process_multi_points
+    pairs.append((pair, point ,x_divider))
+                               ^^^^^^^^^
+UnboundLocalError: cannot access local variable 'x_divider' where it is not associated with a value
+
+2026-01-28T12:13:34.537756 -Frame 0- [ERROR in main] not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 844, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 325, in process_points
+    pairs = get_pairs(cropped_image,search = False,trader = trader,logo_height=logo_size , orig_y = y)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/pair.py", line 755, in get_pairs
+    symbol_data = match_futures_symbol(result[1],search=search)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/pair.py", line 382, in match_futures_symbol
+    cleaned,search = clean_text(text,search=search)
+    ^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 0)
+
+2026-02-01T08:26:51.077854 -Frame 0- [ERROR in main] slice indices must be integers or None or have an __index__ method
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 818, in process_frame
+    frame = crop_frame(or_frame, logo_loc, logo_size,name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/main.py", line 592, in crop_frame
+    frame = crop_dee(image,logo_size)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/main.py", line 585, in crop_dee
+    frame[y_start:frame_height, 0:x_end] = (0, 0, 0)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: slice indices must be integers or None or have an __index__ method
+
+2026-02-01T08:31:15.594468 -Frame 0- [ERROR in main] Either width or height must be specified.
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 844, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 342, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader )
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 126, in get_pair_search_img
+    orig_template = resize_proportional(search_button,height = best_h)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/resize.py", line 15, in resize_proportional
+    raise ValueError("Either width or height must be specified.")
+ValueError: Either width or height must be specified.
+
+2026-02-01T08:32:57.677619 -Frame 0- [ERROR in main] Either width or height must be specified.
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 844, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 342, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader )
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 128, in get_pair_search_img
+    orig_template = resize_proportional(search_button,height = best_h)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/resize.py", line 15, in resize_proportional
+    raise ValueError("Either width or height must be specified.")
+ValueError: Either width or height must be specified.
+
+2026-02-01T08:49:00.683882 -Frame 0- [ERROR in main] Either width or height must be specified.
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 844, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 342, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader )
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 130, in get_pair_search_img
+    orig_template = resize_proportional(search_button,height = best_h)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/resize.py", line 15, in resize_proportional
+    raise ValueError("Either width or height must be specified.")
+ValueError: Either width or height must be specified.
+
+2026-02-01T08:51:06.099794 -Frame 0- [ERROR in main] can't multiply sequence by non-int of type 'float'
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 844, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 342, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader )
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 130, in get_pair_search_img
+    orig_template = resize_proportional(search_button,height = best_h)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/resize.py", line 25, in resize_proportional
+    new_width = int(height * aspect_ratio)
+                    ~~~~~~~^~~~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+
+2026-02-01T08:57:27.976446 -Frame 0- [ERROR in main] not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 844, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 325, in process_points
+    pairs = get_pairs(cropped_image,search = False,trader = trader,logo_height=logo_size , orig_y = y)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/pair.py", line 755, in get_pairs
+    symbol_data = match_futures_symbol(result[1],search=search)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/pair.py", line 382, in match_futures_symbol
+    cleaned,search = clean_text(text,search=search)
+    ^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 0)
+
+2026-02-01T08:57:38.027404 -Frame 0- [ERROR in main] not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 844, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 325, in process_points
+    pairs = get_pairs(cropped_image,search = False,trader = trader,logo_height=logo_size , orig_y = y)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/pair.py", line 755, in get_pairs
+    symbol_data = match_futures_symbol(result[1],search=search)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/pair.py", line 382, in match_futures_symbol
+    cleaned,search = clean_text(text,search=search)
+    ^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 0)
+
+2026-02-01T09:13:46.434514 -Frame 0- [ERROR in main] Invalid input type. Supporting format = string(file path or url), bytes, numpy array
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 846, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 386, in process_points
+    search_res = get_pairs(pair_search_img,search = True,trader = trader,logo_height=logo_size, orig_y = y)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/pair.py", line 557, in get_pairs
+    horizontal_boxes = get_easy_boxes(image)
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/pair.py", line 502, in get_easy_boxes
+    h, f = get_boxes(image=image)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/easy_boxes.py", line 17, in get_boxes
+    horizontal_list, free_list = reader.detect(image)
+                                 ^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/csv_study/lib/python3.12/site-packages/easyocr/easyocr.py", line 319, in detect
+    img, img_cv_grey = reformat_input(img)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/csv_study/lib/python3.12/site-packages/easyocr/utils.py", line 767, in reformat_input
+    raise ValueError('Invalid input type. Supporting format = string(file path or url), bytes, numpy array')
+ValueError: Invalid input type. Supporting format = string(file path or url), bytes, numpy array
+
+2026-02-02T10:32:44.953661 -Frame 0- [ERROR in main] object of type 'int' has no len()
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 755, in process_frame
+    frame = crop_all_screen(or_frame)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/main.py", line 650, in crop_all_screen
+    print(f"There are {len(faces)} faces")
+                       ^^^^^^^^^^
+TypeError: object of type 'int' has no len()
+
+2026-02-02T10:56:20.603861 -Frame 0- [ERROR in main] Invalid input type. Supporting format = string(file path or url), bytes, numpy array
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 386, in process_points
+    search_res = get_pairs(pair_search_img,search = True,trader = trader,logo_height=logo_size, orig_y = y)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/pair.py", line 557, in get_pairs
+    horizontal_boxes = get_easy_boxes(image)
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/pair.py", line 502, in get_easy_boxes
+    h, f = get_boxes(image=image)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/easy_boxes.py", line 17, in get_boxes
+    horizontal_list, free_list = reader.detect(image)
+                                 ^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/csv_study/lib/python3.12/site-packages/easyocr/easyocr.py", line 319, in detect
+    img, img_cv_grey = reformat_input(img)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/csv_study/lib/python3.12/site-packages/easyocr/utils.py", line 767, in reformat_input
+    raise ValueError('Invalid input type. Supporting format = string(file path or url), bytes, numpy array')
+ValueError: Invalid input type. Supporting format = string(file path or url), bytes, numpy array
+
+2026-02-17T11:49:38.738164 -Frame 36654- [ERROR in main] OpenCV(4.12.0) /tmp/pip-install-4d2afz8t/opencv-python_1e9b26e54a0f4efda80df0beb0a90ab6/opencv/modules/imgproc/src/templmatch.cpp:1179: error: (-215:Assertion failed) _img.size().height <= _templ.size().height && _img.size().width <= _templ.size().width in function 'matchTemplate'
+
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 821, in process_frame
+    frame = crop_right(frame,logo_loc,logo_size)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/cropcross.py", line 80, in crop_right
+    leftcrop,right_crop = get_cross(image ,logo_loc,logo_height)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/cropcross.py", line 46, in get_cross
+    res = cv2.matchTemplate(cropped, cross_template, cv2.TM_CCOEFF_NORMED)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /tmp/pip-install-4d2afz8t/opencv-python_1e9b26e54a0f4efda80df0beb0a90ab6/opencv/modules/imgproc/src/templmatch.cpp:1179: error: (-215:Assertion failed) _img.size().height <= _templ.size().height && _img.size().width <= _templ.size().width in function 'matchTemplate'
+
+
+2026-02-17T11:53:33.297843 -Frame 39038- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-02-17T11:57:05.698533 -Frame 40826- [ERROR in main] OpenCV(4.12.0) /tmp/pip-install-4d2afz8t/opencv-python_1e9b26e54a0f4efda80df0beb0a90ab6/opencv/modules/imgproc/src/templmatch.cpp:1179: error: (-215:Assertion failed) _img.size().height <= _templ.size().height && _img.size().width <= _templ.size().width in function 'matchTemplate'
+
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 821, in process_frame
+    frame = crop_right(frame,logo_loc,logo_size)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/cropcross.py", line 80, in crop_right
+    leftcrop,right_crop = get_cross(image ,logo_loc,logo_height)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/cropcross.py", line 46, in get_cross
+    res = cv2.matchTemplate(cropped, cross_template, cv2.TM_CCOEFF_NORMED)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /tmp/pip-install-4d2afz8t/opencv-python_1e9b26e54a0f4efda80df0beb0a90ab6/opencv/modules/imgproc/src/templmatch.cpp:1179: error: (-215:Assertion failed) _img.size().height <= _templ.size().height && _img.size().width <= _templ.size().width in function 'matchTemplate'
+
+
+2026-02-17T12:01:03.519251 -Frame 43210- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-02-17T12:04:57.869604 -Frame 44849- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-02-17T12:12:04.137106 -Frame 49021- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-02-17T12:12:43.641887 -Frame 49319- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-02-17T12:21:32.237470 -Frame 54683- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-02-17T12:21:42.280915 -Frame 54832- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-02-17T12:23:08.788314 -Frame 56024- [ERROR in main] OpenCV(4.12.0) /tmp/pip-install-4d2afz8t/opencv-python_1e9b26e54a0f4efda80df0beb0a90ab6/opencv/modules/imgproc/src/templmatch.cpp:1179: error: (-215:Assertion failed) _img.size().height <= _templ.size().height && _img.size().width <= _templ.size().width in function 'matchTemplate'
+
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 821, in process_frame
+    frame = crop_right(frame,logo_loc,logo_size)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/cropcross.py", line 80, in crop_right
+    leftcrop,right_crop = get_cross(image ,logo_loc,logo_height)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/cropcross.py", line 46, in get_cross
+    res = cv2.matchTemplate(cropped, cross_template, cv2.TM_CCOEFF_NORMED)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /tmp/pip-install-4d2afz8t/opencv-python_1e9b26e54a0f4efda80df0beb0a90ab6/opencv/modules/imgproc/src/templmatch.cpp:1179: error: (-215:Assertion failed) _img.size().height <= _templ.size().height && _img.size().width <= _templ.size().width in function 'matchTemplate'
+
+
+2026-02-17T12:25:38.999253 -Frame 57216- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-02-17T12:30:30.540201 -Frame 59898- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-02-17T12:36:40.720901 -Frame 62878- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-02-17T12:36:52.068368 -Frame 63027- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-02-17T12:38:56.822929 -Frame 64070- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-02-17T12:39:14.435097 -Frame 64368- [ERROR in main] Invalid input type. Supporting format = string(file path or url), bytes, numpy array
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 386, in process_points
+    search_res = get_pairs(pair_search_img,search = True,trader = trader,logo_height=logo_size, orig_y = y)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/pair.py", line 557, in get_pairs
+    horizontal_boxes = get_easy_boxes(image)
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/pair.py", line 502, in get_easy_boxes
+    h, f = get_boxes(image=image)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/easy_boxes.py", line 17, in get_boxes
+    horizontal_list, free_list = reader.detect(image)
+                                 ^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/csv_study/lib/python3.12/site-packages/easyocr/easyocr.py", line 319, in detect
+    img, img_cv_grey = reformat_input(img)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/csv_study/lib/python3.12/site-packages/easyocr/utils.py", line 767, in reformat_input
+    raise ValueError('Invalid input type. Supporting format = string(file path or url), bytes, numpy array')
+ValueError: Invalid input type. Supporting format = string(file path or url), bytes, numpy array
+
+2026-02-17T12:39:41.754299 -Frame 64666- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-02-17T12:40:28.091987 -Frame 65262- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-02-17T12:42:08.547335 -Frame 66603- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-02-17T12:42:33.961649 -Frame 67050- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-02-17T12:42:56.375877 -Frame 67348- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-02-17T12:43:29.643361 -Frame 67795- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 342, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader )
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-02-17T12:43:35.354123 -Frame 67944- [ERROR in main] cannot unpack non-iterable NoneType object
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 821, in process_frame
+    frame = crop_right(frame,logo_loc,logo_size)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/cropcross.py", line 80, in crop_right
+    leftcrop,right_crop = get_cross(image ,logo_loc,logo_height)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/cropcross.py", line 32, in get_cross
+    top_left_roi, bottom_right_roi = logo_loc
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: cannot unpack non-iterable NoneType object
+
+2026-02-17T12:44:09.416629 -Frame 68391- [ERROR in main] Invalid input type. Supporting format = string(file path or url), bytes, numpy array
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 386, in process_points
+    search_res = get_pairs(pair_search_img,search = True,trader = trader,logo_height=logo_size, orig_y = y)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/pair.py", line 557, in get_pairs
+    horizontal_boxes = get_easy_boxes(image)
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/pair.py", line 502, in get_easy_boxes
+    h, f = get_boxes(image=image)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/easy_boxes.py", line 17, in get_boxes
+    horizontal_list, free_list = reader.detect(image)
+                                 ^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/csv_study/lib/python3.12/site-packages/easyocr/easyocr.py", line 319, in detect
+    img, img_cv_grey = reformat_input(img)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/csv_study/lib/python3.12/site-packages/easyocr/utils.py", line 767, in reformat_input
+    raise ValueError('Invalid input type. Supporting format = string(file path or url), bytes, numpy array')
+ValueError: Invalid input type. Supporting format = string(file path or url), bytes, numpy array
+
+2026-02-17T12:44:26.781002 -Frame 68689- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-02-17T12:44:50.515431 -Frame 68987- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-02-17T12:44:59.091941 -Frame 69136- [ERROR in main] Invalid input type. Supporting format = string(file path or url), bytes, numpy array
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 386, in process_points
+    search_res = get_pairs(pair_search_img,search = True,trader = trader,logo_height=logo_size, orig_y = y)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/pair.py", line 557, in get_pairs
+    horizontal_boxes = get_easy_boxes(image)
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/pair.py", line 502, in get_easy_boxes
+    h, f = get_boxes(image=image)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/easy_boxes.py", line 17, in get_boxes
+    horizontal_list, free_list = reader.detect(image)
+                                 ^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/csv_study/lib/python3.12/site-packages/easyocr/easyocr.py", line 319, in detect
+    img, img_cv_grey = reformat_input(img)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/csv_study/lib/python3.12/site-packages/easyocr/utils.py", line 767, in reformat_input
+    raise ValueError('Invalid input type. Supporting format = string(file path or url), bytes, numpy array')
+ValueError: Invalid input type. Supporting format = string(file path or url), bytes, numpy array
+
+2026-02-17T12:48:58.406292 -Frame 72414- [ERROR in main] Invalid input type. Supporting format = string(file path or url), bytes, numpy array
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 386, in process_points
+    search_res = get_pairs(pair_search_img,search = True,trader = trader,logo_height=logo_size, orig_y = y)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/pair.py", line 557, in get_pairs
+    horizontal_boxes = get_easy_boxes(image)
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/pair.py", line 502, in get_easy_boxes
+    h, f = get_boxes(image=image)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/easy_boxes.py", line 17, in get_boxes
+    horizontal_list, free_list = reader.detect(image)
+                                 ^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/csv_study/lib/python3.12/site-packages/easyocr/easyocr.py", line 319, in detect
+    img, img_cv_grey = reformat_input(img)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/csv_study/lib/python3.12/site-packages/easyocr/utils.py", line 767, in reformat_input
+    raise ValueError('Invalid input type. Supporting format = string(file path or url), bytes, numpy array')
+ValueError: Invalid input type. Supporting format = string(file path or url), bytes, numpy array
+
+2026-02-17T12:49:14.628729 -Frame 72563- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-02-17T12:49:26.763254 -Frame 72712- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-02-17T12:49:36.957237 -Frame 72861- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-02-17T12:57:37.199657 -Frame 80311- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-02-17T12:58:44.386404 -Frame 81354- [ERROR in main] Invalid input type. Supporting format = string(file path or url), bytes, numpy array
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 386, in process_points
+    search_res = get_pairs(pair_search_img,search = True,trader = trader,logo_height=logo_size, orig_y = y)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/pair.py", line 557, in get_pairs
+    horizontal_boxes = get_easy_boxes(image)
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/pair.py", line 502, in get_easy_boxes
+    h, f = get_boxes(image=image)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/easy_boxes.py", line 17, in get_boxes
+    horizontal_list, free_list = reader.detect(image)
+                                 ^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/csv_study/lib/python3.12/site-packages/easyocr/easyocr.py", line 319, in detect
+    img, img_cv_grey = reformat_input(img)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/csv_study/lib/python3.12/site-packages/easyocr/utils.py", line 767, in reformat_input
+    raise ValueError('Invalid input type. Supporting format = string(file path or url), bytes, numpy array')
+ValueError: Invalid input type. Supporting format = string(file path or url), bytes, numpy array
+
+2026-02-17T12:58:56.209486 -Frame 81503- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-02-17T13:03:26.613918 -Frame 85079- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 342, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader )
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-02-17T13:20:00.505268 -Frame 94317- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-02-17T13:21:34.039416 -Frame 95360- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-02-17T13:22:45.505525 -Frame 96403- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-02-17T13:24:31.075887 -Frame 97744- [ERROR in main] OpenCV(4.12.0) /tmp/pip-install-4d2afz8t/opencv-python_1e9b26e54a0f4efda80df0beb0a90ab6/opencv/modules/imgproc/src/templmatch.cpp:1179: error: (-215:Assertion failed) _img.size().height <= _templ.size().height && _img.size().width <= _templ.size().width in function 'matchTemplate'
+
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 821, in process_frame
+    frame = crop_right(frame,logo_loc,logo_size)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/cropcross.py", line 80, in crop_right
+    leftcrop,right_crop = get_cross(image ,logo_loc,logo_height)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/cropcross.py", line 46, in get_cross
+    res = cv2.matchTemplate(cropped, cross_template, cv2.TM_CCOEFF_NORMED)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /tmp/pip-install-4d2afz8t/opencv-python_1e9b26e54a0f4efda80df0beb0a90ab6/opencv/modules/imgproc/src/templmatch.cpp:1179: error: (-215:Assertion failed) _img.size().height <= _templ.size().height && _img.size().width <= _templ.size().width in function 'matchTemplate'
+
+
+2026-02-17T13:31:46.879512 -Frame 102512- [ERROR in main] Invalid input type. Supporting format = string(file path or url), bytes, numpy array
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 386, in process_points
+    search_res = get_pairs(pair_search_img,search = True,trader = trader,logo_height=logo_size, orig_y = y)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/pair.py", line 557, in get_pairs
+    horizontal_boxes = get_easy_boxes(image)
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/pair.py", line 502, in get_easy_boxes
+    h, f = get_boxes(image=image)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/easy_boxes.py", line 17, in get_boxes
+    horizontal_list, free_list = reader.detect(image)
+                                 ^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/csv_study/lib/python3.12/site-packages/easyocr/easyocr.py", line 319, in detect
+    img, img_cv_grey = reformat_input(img)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/csv_study/lib/python3.12/site-packages/easyocr/utils.py", line 767, in reformat_input
+    raise ValueError('Invalid input type. Supporting format = string(file path or url), bytes, numpy array')
+ValueError: Invalid input type. Supporting format = string(file path or url), bytes, numpy array
+
+2026-02-17T13:32:26.723205 -Frame 103108- [ERROR in main] Invalid input type. Supporting format = string(file path or url), bytes, numpy array
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 386, in process_points
+    search_res = get_pairs(pair_search_img,search = True,trader = trader,logo_height=logo_size, orig_y = y)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/pair.py", line 557, in get_pairs
+    horizontal_boxes = get_easy_boxes(image)
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/pair.py", line 502, in get_easy_boxes
+    h, f = get_boxes(image=image)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/easy_boxes.py", line 17, in get_boxes
+    horizontal_list, free_list = reader.detect(image)
+                                 ^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/csv_study/lib/python3.12/site-packages/easyocr/easyocr.py", line 319, in detect
+    img, img_cv_grey = reformat_input(img)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/csv_study/lib/python3.12/site-packages/easyocr/utils.py", line 767, in reformat_input
+    raise ValueError('Invalid input type. Supporting format = string(file path or url), bytes, numpy array')
+ValueError: Invalid input type. Supporting format = string(file path or url), bytes, numpy array
+
+2026-02-17T13:33:11.693875 -Frame 103704- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 382, in process_points
+    screens_data = process_multi_points(pairs,image,screens_data,logo_size,logo_loc,trader,y)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 251, in process_multi_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,name = trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-02-17T13:33:42.552784 -Frame 104151- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-02-17T13:33:51.076995 -Frame 104300- [ERROR in main] Invalid input type. Supporting format = string(file path or url), bytes, numpy array
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 386, in process_points
+    search_res = get_pairs(pair_search_img,search = True,trader = trader,logo_height=logo_size, orig_y = y)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/pair.py", line 557, in get_pairs
+    horizontal_boxes = get_easy_boxes(image)
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/pair.py", line 502, in get_easy_boxes
+    h, f = get_boxes(image=image)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/easy_boxes.py", line 17, in get_boxes
+    horizontal_list, free_list = reader.detect(image)
+                                 ^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/csv_study/lib/python3.12/site-packages/easyocr/easyocr.py", line 319, in detect
+    img, img_cv_grey = reformat_input(img)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/csv_study/lib/python3.12/site-packages/easyocr/utils.py", line 767, in reformat_input
+    raise ValueError('Invalid input type. Supporting format = string(file path or url), bytes, numpy array')
+ValueError: Invalid input type. Supporting format = string(file path or url), bytes, numpy array
+
+2026-02-17T13:35:02.835173 -Frame 105194- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-02-17T13:35:39.204789 -Frame 105641- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-02-17T13:38:33.996278 -Frame 107578- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-02-17T13:38:56.994012 -Frame 107876- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-02-17T13:44:12.079964 -Frame 111154- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-02-17T13:44:23.817499 -Frame 111303- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-02-17T13:44:31.146300 -Frame 111452- [ERROR in main] OpenCV(4.12.0) /tmp/pip-install-4d2afz8t/opencv-python_1e9b26e54a0f4efda80df0beb0a90ab6/opencv/modules/imgproc/src/templmatch.cpp:1179: error: (-215:Assertion failed) _img.size().height <= _templ.size().height && _img.size().width <= _templ.size().width in function 'matchTemplate'
+
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 821, in process_frame
+    frame = crop_right(frame,logo_loc,logo_size)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/cropcross.py", line 80, in crop_right
+    leftcrop,right_crop = get_cross(image ,logo_loc,logo_height)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/cropcross.py", line 46, in get_cross
+    res = cv2.matchTemplate(cropped, cross_template, cv2.TM_CCOEFF_NORMED)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /tmp/pip-install-4d2afz8t/opencv-python_1e9b26e54a0f4efda80df0beb0a90ab6/opencv/modules/imgproc/src/templmatch.cpp:1179: error: (-215:Assertion failed) _img.size().height <= _templ.size().height && _img.size().width <= _templ.size().width in function 'matchTemplate'
+
+
+2026-02-17T13:44:38.216375 -Frame 111601- [ERROR in main] cannot unpack non-iterable NoneType object
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 821, in process_frame
+    frame = crop_right(frame,logo_loc,logo_size)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/cropcross.py", line 80, in crop_right
+    leftcrop,right_crop = get_cross(image ,logo_loc,logo_height)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/cropcross.py", line 32, in get_cross
+    top_left_roi, bottom_right_roi = logo_loc
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: cannot unpack non-iterable NoneType object
+
+2026-02-17T13:44:45.307280 -Frame 111750- [ERROR in main] OpenCV(4.12.0) /tmp/pip-install-4d2afz8t/opencv-python_1e9b26e54a0f4efda80df0beb0a90ab6/opencv/modules/imgproc/src/templmatch.cpp:1179: error: (-215:Assertion failed) _img.size().height <= _templ.size().height && _img.size().width <= _templ.size().width in function 'matchTemplate'
+
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 821, in process_frame
+    frame = crop_right(frame,logo_loc,logo_size)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/cropcross.py", line 80, in crop_right
+    leftcrop,right_crop = get_cross(image ,logo_loc,logo_height)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/cropcross.py", line 46, in get_cross
+    res = cv2.matchTemplate(cropped, cross_template, cv2.TM_CCOEFF_NORMED)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /tmp/pip-install-4d2afz8t/opencv-python_1e9b26e54a0f4efda80df0beb0a90ab6/opencv/modules/imgproc/src/templmatch.cpp:1179: error: (-215:Assertion failed) _img.size().height <= _templ.size().height && _img.size().width <= _templ.size().width in function 'matchTemplate'
+
+
+2026-02-17T13:44:52.672707 -Frame 111899- [ERROR in main] OpenCV(4.12.0) /tmp/pip-install-4d2afz8t/opencv-python_1e9b26e54a0f4efda80df0beb0a90ab6/opencv/modules/imgproc/src/templmatch.cpp:1179: error: (-215:Assertion failed) _img.size().height <= _templ.size().height && _img.size().width <= _templ.size().width in function 'matchTemplate'
+
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 821, in process_frame
+    frame = crop_right(frame,logo_loc,logo_size)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/cropcross.py", line 80, in crop_right
+    leftcrop,right_crop = get_cross(image ,logo_loc,logo_height)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/cropcross.py", line 46, in get_cross
+    res = cv2.matchTemplate(cropped, cross_template, cv2.TM_CCOEFF_NORMED)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /tmp/pip-install-4d2afz8t/opencv-python_1e9b26e54a0f4efda80df0beb0a90ab6/opencv/modules/imgproc/src/templmatch.cpp:1179: error: (-215:Assertion failed) _img.size().height <= _templ.size().height && _img.size().width <= _templ.size().width in function 'matchTemplate'
+
+
+2026-02-17T13:45:00.010573 -Frame 112048- [ERROR in main] OpenCV(4.12.0) /tmp/pip-install-4d2afz8t/opencv-python_1e9b26e54a0f4efda80df0beb0a90ab6/opencv/modules/imgproc/src/templmatch.cpp:1179: error: (-215:Assertion failed) _img.size().height <= _templ.size().height && _img.size().width <= _templ.size().width in function 'matchTemplate'
+
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 821, in process_frame
+    frame = crop_right(frame,logo_loc,logo_size)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/cropcross.py", line 80, in crop_right
+    leftcrop,right_crop = get_cross(image ,logo_loc,logo_height)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/cropcross.py", line 46, in get_cross
+    res = cv2.matchTemplate(cropped, cross_template, cv2.TM_CCOEFF_NORMED)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /tmp/pip-install-4d2afz8t/opencv-python_1e9b26e54a0f4efda80df0beb0a90ab6/opencv/modules/imgproc/src/templmatch.cpp:1179: error: (-215:Assertion failed) _img.size().height <= _templ.size().height && _img.size().width <= _templ.size().width in function 'matchTemplate'
+
+
+2026-02-17T13:45:06.716076 -Frame 112197- [ERROR in main] cannot unpack non-iterable NoneType object
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 821, in process_frame
+    frame = crop_right(frame,logo_loc,logo_size)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/cropcross.py", line 80, in crop_right
+    leftcrop,right_crop = get_cross(image ,logo_loc,logo_height)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/cropcross.py", line 32, in get_cross
+    top_left_roi, bottom_right_roi = logo_loc
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: cannot unpack non-iterable NoneType object
+
+2026-02-17T13:45:13.466496 -Frame 112346- [ERROR in main] OpenCV(4.12.0) /tmp/pip-install-4d2afz8t/opencv-python_1e9b26e54a0f4efda80df0beb0a90ab6/opencv/modules/imgproc/src/templmatch.cpp:1179: error: (-215:Assertion failed) _img.size().height <= _templ.size().height && _img.size().width <= _templ.size().width in function 'matchTemplate'
+
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 821, in process_frame
+    frame = crop_right(frame,logo_loc,logo_size)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/cropcross.py", line 80, in crop_right
+    leftcrop,right_crop = get_cross(image ,logo_loc,logo_height)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/cropcross.py", line 46, in get_cross
+    res = cv2.matchTemplate(cropped, cross_template, cv2.TM_CCOEFF_NORMED)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /tmp/pip-install-4d2afz8t/opencv-python_1e9b26e54a0f4efda80df0beb0a90ab6/opencv/modules/imgproc/src/templmatch.cpp:1179: error: (-215:Assertion failed) _img.size().height <= _templ.size().height && _img.size().width <= _templ.size().width in function 'matchTemplate'
+
+
+2026-02-17T13:45:19.996883 -Frame 112495- [ERROR in main] OpenCV(4.12.0) /tmp/pip-install-4d2afz8t/opencv-python_1e9b26e54a0f4efda80df0beb0a90ab6/opencv/modules/imgproc/src/templmatch.cpp:1179: error: (-215:Assertion failed) _img.size().height <= _templ.size().height && _img.size().width <= _templ.size().width in function 'matchTemplate'
+
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 821, in process_frame
+    frame = crop_right(frame,logo_loc,logo_size)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/cropcross.py", line 80, in crop_right
+    leftcrop,right_crop = get_cross(image ,logo_loc,logo_height)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/cropcross.py", line 46, in get_cross
+    res = cv2.matchTemplate(cropped, cross_template, cv2.TM_CCOEFF_NORMED)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /tmp/pip-install-4d2afz8t/opencv-python_1e9b26e54a0f4efda80df0beb0a90ab6/opencv/modules/imgproc/src/templmatch.cpp:1179: error: (-215:Assertion failed) _img.size().height <= _templ.size().height && _img.size().width <= _templ.size().width in function 'matchTemplate'
+
+
+2026-02-17T13:45:26.533749 -Frame 112644- [ERROR in main] OpenCV(4.12.0) /tmp/pip-install-4d2afz8t/opencv-python_1e9b26e54a0f4efda80df0beb0a90ab6/opencv/modules/imgproc/src/templmatch.cpp:1179: error: (-215:Assertion failed) _img.size().height <= _templ.size().height && _img.size().width <= _templ.size().width in function 'matchTemplate'
+
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 821, in process_frame
+    frame = crop_right(frame,logo_loc,logo_size)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/cropcross.py", line 80, in crop_right
+    leftcrop,right_crop = get_cross(image ,logo_loc,logo_height)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/cropcross.py", line 46, in get_cross
+    res = cv2.matchTemplate(cropped, cross_template, cv2.TM_CCOEFF_NORMED)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /tmp/pip-install-4d2afz8t/opencv-python_1e9b26e54a0f4efda80df0beb0a90ab6/opencv/modules/imgproc/src/templmatch.cpp:1179: error: (-215:Assertion failed) _img.size().height <= _templ.size().height && _img.size().width <= _templ.size().width in function 'matchTemplate'
+
+
+2026-02-17T13:46:41.082638 -Frame 113389- [ERROR in main] OpenCV(4.12.0) /tmp/pip-install-4d2afz8t/opencv-python_1e9b26e54a0f4efda80df0beb0a90ab6/opencv/modules/imgproc/src/templmatch.cpp:1179: error: (-215:Assertion failed) _img.size().height <= _templ.size().height && _img.size().width <= _templ.size().width in function 'matchTemplate'
+
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 821, in process_frame
+    frame = crop_right(frame,logo_loc,logo_size)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/cropcross.py", line 80, in crop_right
+    leftcrop,right_crop = get_cross(image ,logo_loc,logo_height)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/cropcross.py", line 46, in get_cross
+    res = cv2.matchTemplate(cropped, cross_template, cv2.TM_CCOEFF_NORMED)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /tmp/pip-install-4d2afz8t/opencv-python_1e9b26e54a0f4efda80df0beb0a90ab6/opencv/modules/imgproc/src/templmatch.cpp:1179: error: (-215:Assertion failed) _img.size().height <= _templ.size().height && _img.size().width <= _templ.size().width in function 'matchTemplate'
+
+
+2026-02-17T13:48:45.609012 -Frame 114730- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-02-17T13:50:35.973290 -Frame 115922- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 382, in process_points
+    screens_data = process_multi_points(pairs,image,screens_data,logo_size,logo_loc,trader,y)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 251, in process_multi_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,name = trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-02-17T13:50:41.551891 -Frame 116071- [ERROR in main] OpenCV(4.12.0) /tmp/pip-install-4d2afz8t/opencv-python_1e9b26e54a0f4efda80df0beb0a90ab6/opencv/modules/imgproc/src/templmatch.cpp:1179: error: (-215:Assertion failed) _img.size().height <= _templ.size().height && _img.size().width <= _templ.size().width in function 'matchTemplate'
+
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 821, in process_frame
+    frame = crop_right(frame,logo_loc,logo_size)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/cropcross.py", line 80, in crop_right
+    leftcrop,right_crop = get_cross(image ,logo_loc,logo_height)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/cropcross.py", line 46, in get_cross
+    res = cv2.matchTemplate(cropped, cross_template, cv2.TM_CCOEFF_NORMED)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /tmp/pip-install-4d2afz8t/opencv-python_1e9b26e54a0f4efda80df0beb0a90ab6/opencv/modules/imgproc/src/templmatch.cpp:1179: error: (-215:Assertion failed) _img.size().height <= _templ.size().height && _img.size().width <= _templ.size().width in function 'matchTemplate'
+
+
+2026-02-17T13:51:01.377463 -Frame 116369- [ERROR in main] Invalid input type. Supporting format = string(file path or url), bytes, numpy array
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 386, in process_points
+    search_res = get_pairs(pair_search_img,search = True,trader = trader,logo_height=logo_size, orig_y = y)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/pair.py", line 557, in get_pairs
+    horizontal_boxes = get_easy_boxes(image)
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/pair.py", line 502, in get_easy_boxes
+    h, f = get_boxes(image=image)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/easy_boxes.py", line 17, in get_boxes
+    horizontal_list, free_list = reader.detect(image)
+                                 ^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/csv_study/lib/python3.12/site-packages/easyocr/easyocr.py", line 319, in detect
+    img, img_cv_grey = reformat_input(img)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/csv_study/lib/python3.12/site-packages/easyocr/utils.py", line 767, in reformat_input
+    raise ValueError('Invalid input type. Supporting format = string(file path or url), bytes, numpy array')
+ValueError: Invalid input type. Supporting format = string(file path or url), bytes, numpy array
+
+2026-02-19T08:48:53.409007 -Frame 398277- [ERROR in main] OpenCV(4.12.0) /tmp/pip-install-4d2afz8t/opencv-python_1e9b26e54a0f4efda80df0beb0a90ab6/opencv/modules/imgproc/src/color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'
+
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 743, in process_frame
+    name = get_trader_name(or_frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/name.py", line 398, in get_trader_name
+    name = get_ocr_name(image)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/name.py", line 280, in get_ocr_name
+    text_boxes = get_easy_boxes(cropped_part)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/pair.py", line 502, in get_easy_boxes
+    h, f = get_boxes(image=image)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/easy_boxes.py", line 17, in get_boxes
+    horizontal_list, free_list = reader.detect(image)
+                                 ^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/csv_study/lib/python3.12/site-packages/easyocr/easyocr.py", line 319, in detect
+    img, img_cv_grey = reformat_input(img)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/csv_study/lib/python3.12/site-packages/easyocr/utils.py", line 757, in reformat_input
+    img_cv_grey = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /tmp/pip-install-4d2afz8t/opencv-python_1e9b26e54a0f4efda80df0beb0a90ab6/opencv/modules/imgproc/src/color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'
+
+
+2026-02-20T00:58:06.041259 -Frame 444169- [ERROR in main] Invalid input type. Supporting format = string(file path or url), bytes, numpy array
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 386, in process_points
+    search_res = get_pairs(pair_search_img,search = True,trader = trader,logo_height=logo_size, orig_y = y)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/pair.py", line 557, in get_pairs
+    horizontal_boxes = get_easy_boxes(image)
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/pair.py", line 502, in get_easy_boxes
+    h, f = get_boxes(image=image)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/easy_boxes.py", line 17, in get_boxes
+    horizontal_list, free_list = reader.detect(image)
+                                 ^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/csv_study/lib/python3.12/site-packages/easyocr/easyocr.py", line 319, in detect
+    img, img_cv_grey = reformat_input(img)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/csv_study/lib/python3.12/site-packages/easyocr/utils.py", line 767, in reformat_input
+    raise ValueError('Invalid input type. Supporting format = string(file path or url), bytes, numpy array')
+ValueError: Invalid input type. Supporting format = string(file path or url), bytes, numpy array
+
+2026-02-20T01:02:41.536805 -Frame 447149- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-02-20T01:23:04.271435 -Frame 457877- [ERROR in main] OpenCV(4.12.0) /tmp/pip-install-4d2afz8t/opencv-python_1e9b26e54a0f4efda80df0beb0a90ab6/opencv/modules/imgcodecs/src/loadsave.cpp:1146: error: (-215:Assertion failed) !_img.empty() in function 'imwrite'
+
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 81, in get_data
+    cv2.imwrite(f"screen_{i}.png",screen_image)
+cv2.error: OpenCV(4.12.0) /tmp/pip-install-4d2afz8t/opencv-python_1e9b26e54a0f4efda80df0beb0a90ab6/opencv/modules/imgcodecs/src/loadsave.cpp:1146: error: (-215:Assertion failed) !_img.empty() in function 'imwrite'
+
+
+2026-02-20T01:23:10.846024 -Frame 458026- [ERROR in main] OpenCV(4.12.0) /tmp/pip-install-4d2afz8t/opencv-python_1e9b26e54a0f4efda80df0beb0a90ab6/opencv/modules/imgcodecs/src/loadsave.cpp:1146: error: (-215:Assertion failed) !_img.empty() in function 'imwrite'
+
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 81, in get_data
+    cv2.imwrite(f"screen_{i}.png",screen_image)
+cv2.error: OpenCV(4.12.0) /tmp/pip-install-4d2afz8t/opencv-python_1e9b26e54a0f4efda80df0beb0a90ab6/opencv/modules/imgcodecs/src/loadsave.cpp:1146: error: (-215:Assertion failed) !_img.empty() in function 'imwrite'
+
+
+2026-02-20T01:23:31.555642 -Frame 458175- [ERROR in main] OpenCV(4.12.0) /tmp/pip-install-4d2afz8t/opencv-python_1e9b26e54a0f4efda80df0beb0a90ab6/opencv/modules/imgcodecs/src/loadsave.cpp:1146: error: (-215:Assertion failed) !_img.empty() in function 'imwrite'
+
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 81, in get_data
+    cv2.imwrite(f"screen_{i}.png",screen_image)
+cv2.error: OpenCV(4.12.0) /tmp/pip-install-4d2afz8t/opencv-python_1e9b26e54a0f4efda80df0beb0a90ab6/opencv/modules/imgcodecs/src/loadsave.cpp:1146: error: (-215:Assertion failed) !_img.empty() in function 'imwrite'
+
+
+2026-02-20T02:17:02.479667 -Frame 486187- [ERROR in main] OpenCV(4.12.0) /tmp/pip-install-4d2afz8t/opencv-python_1e9b26e54a0f4efda80df0beb0a90ab6/opencv/modules/imgproc/src/color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'
+
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 743, in process_frame
+    name = get_trader_name(or_frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/name.py", line 398, in get_trader_name
+    name = get_ocr_name(image)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/name.py", line 280, in get_ocr_name
+    text_boxes = get_easy_boxes(cropped_part)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/pair.py", line 502, in get_easy_boxes
+    h, f = get_boxes(image=image)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/easy_boxes.py", line 17, in get_boxes
+    horizontal_list, free_list = reader.detect(image)
+                                 ^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/csv_study/lib/python3.12/site-packages/easyocr/easyocr.py", line 319, in detect
+    img, img_cv_grey = reformat_input(img)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/csv_study/lib/python3.12/site-packages/easyocr/utils.py", line 757, in reformat_input
+    img_cv_grey = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.12.0) /tmp/pip-install-4d2afz8t/opencv-python_1e9b26e54a0f4efda80df0beb0a90ab6/opencv/modules/imgproc/src/color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'
+
+
+2026-02-20T02:18:21.571675 -Frame 487230- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-02-20T02:18:27.856362 -Frame 487379- [ERROR in main] Invalid input type. Supporting format = string(file path or url), bytes, numpy array
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 386, in process_points
+    search_res = get_pairs(pair_search_img,search = True,trader = trader,logo_height=logo_size, orig_y = y)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/pair.py", line 557, in get_pairs
+    horizontal_boxes = get_easy_boxes(image)
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/pair.py", line 502, in get_easy_boxes
+    h, f = get_boxes(image=image)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/easy_boxes.py", line 17, in get_boxes
+    horizontal_list, free_list = reader.detect(image)
+                                 ^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/csv_study/lib/python3.12/site-packages/easyocr/easyocr.py", line 319, in detect
+    img, img_cv_grey = reformat_input(img)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/csv_study/lib/python3.12/site-packages/easyocr/utils.py", line 767, in reformat_input
+    raise ValueError('Invalid input type. Supporting format = string(file path or url), bytes, numpy array')
+ValueError: Invalid input type. Supporting format = string(file path or url), bytes, numpy array
+
+2026-02-20T02:19:15.707873 -Frame 487975- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 342, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader )
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-02-20T02:19:47.340345 -Frame 488422- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-02-20T02:20:21.390537 -Frame 489018- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-02-20T02:21:39.677041 -Frame 490210- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 382, in process_points
+    screens_data = process_multi_points(pairs,image,screens_data,logo_size,logo_loc,trader,y)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 251, in process_multi_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,name = trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-02-20T03:06:57.173774 -Frame 510623- [ERROR in main] 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 743, in process_frame
+    name = get_trader_name(or_frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/name.py", line 398, in get_trader_name
+    name = get_ocr_name(image)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/name.py", line 275, in get_ocr_name
+    x,y = best_match[0]
+          ~~~~~~~~~~^^^
+TypeError: 'NoneType' object is not subscriptable
+
+2026-02-20T05:56:34.615668 -Frame 620883- [ERROR in main] 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 743, in process_frame
+    name = get_trader_name(or_frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/name.py", line 398, in get_trader_name
+    name = get_ocr_name(image)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/name.py", line 275, in get_ocr_name
+    x,y = best_match[0]
+          ~~~~~~~~~~^^^
+TypeError: 'NoneType' object is not subscriptable
+
+2026-04-22T11:13:26.029343 -Frame 450- [ERROR in main] Invalid input type. Supporting format = string(file path or url), bytes, numpy array
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 386, in process_points
+    search_res = get_pairs(pair_search_img,search = True,trader = trader,logo_height=logo_size, orig_y = y)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/pair.py", line 557, in get_pairs
+    horizontal_boxes = get_easy_boxes(image)
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/pair.py", line 502, in get_easy_boxes
+    h, f = get_boxes(image=image)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/easy_boxes.py", line 17, in get_boxes
+    horizontal_list, free_list = reader.detect(image)
+                                 ^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/csv_study/lib/python3.12/site-packages/easyocr/easyocr.py", line 319, in detect
+    img, img_cv_grey = reformat_input(img)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/csv_study/lib/python3.12/site-packages/easyocr/utils.py", line 767, in reformat_input
+    raise ValueError('Invalid input type. Supporting format = string(file path or url), bytes, numpy array')
+ValueError: Invalid input type. Supporting format = string(file path or url), bytes, numpy array
+
+2026-04-22T11:13:50.331998 -Frame 900- [ERROR in main] Invalid input type. Supporting format = string(file path or url), bytes, numpy array
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 386, in process_points
+    search_res = get_pairs(pair_search_img,search = True,trader = trader,logo_height=logo_size, orig_y = y)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/pair.py", line 557, in get_pairs
+    horizontal_boxes = get_easy_boxes(image)
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/pair.py", line 502, in get_easy_boxes
+    h, f = get_boxes(image=image)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/easy_boxes.py", line 17, in get_boxes
+    horizontal_list, free_list = reader.detect(image)
+                                 ^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/csv_study/lib/python3.12/site-packages/easyocr/easyocr.py", line 319, in detect
+    img, img_cv_grey = reformat_input(img)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/csv_study/lib/python3.12/site-packages/easyocr/utils.py", line 767, in reformat_input
+    raise ValueError('Invalid input type. Supporting format = string(file path or url), bytes, numpy array')
+ValueError: Invalid input type. Supporting format = string(file path or url), bytes, numpy array
+
+2026-04-22T11:17:15.352734 -Frame 4050- Cannot crop frame: logo info missing
+2026-04-22T11:17:41.864489 -Frame 4500- [ERROR in main] Invalid input type. Supporting format = string(file path or url), bytes, numpy array
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 386, in process_points
+    search_res = get_pairs(pair_search_img,search = True,trader = trader,logo_height=logo_size, orig_y = y)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/pair.py", line 557, in get_pairs
+    horizontal_boxes = get_easy_boxes(image)
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/pair.py", line 502, in get_easy_boxes
+    h, f = get_boxes(image=image)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/easy_boxes.py", line 17, in get_boxes
+    horizontal_list, free_list = reader.detect(image)
+                                 ^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/csv_study/lib/python3.12/site-packages/easyocr/easyocr.py", line 319, in detect
+    img, img_cv_grey = reformat_input(img)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/csv_study/lib/python3.12/site-packages/easyocr/utils.py", line 767, in reformat_input
+    raise ValueError('Invalid input type. Supporting format = string(file path or url), bytes, numpy array')
+ValueError: Invalid input type. Supporting format = string(file path or url), bytes, numpy array
+
+2026-04-22T11:19:40.321957 -Frame 5700- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 382, in process_points
+    screens_data = process_multi_points(pairs,image,screens_data,logo_size,logo_loc,trader,y)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 251, in process_multi_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,name = trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-04-22T11:20:55.368737 -Frame 6900- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-04-22T11:21:23.739588 -Frame 7350- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-04-22T11:23:03.224616 -Frame 8700- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-04-22T11:23:49.152785 -Frame 9450- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-04-22T12:10:55.053417 -Frame 46050- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-04-22T12:11:04.468497 -Frame 46200- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-04-22T12:32:33.226191 -Frame 63000- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+2026-04-22T12:37:24.487901 -Frame 66600- [ERROR in main] list index out of range
+Traceback (most recent call last):
+  File "/home/brian/Desktop/csv_study/main.py", line 851, in process_frame
+    screens_data = get_data(frame,logo_size,logo_loc,name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/all_data.py", line 58, in get_data
+    screens = process_points(image,top_rect,logo_size,logo_loc,trader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/recreate_dot.py", line 384, in process_points
+    pair_search_img = get_pair_search_img(image,logo_size,logo_loc,trader)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/Desktop/csv_study/search.py", line 177, in get_pair_search_img
+    point = main_points_filtered[0]
+            ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
