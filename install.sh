@@ -1,11 +1,8 @@
 #!/bin/bash
 set -e  # exit if any command fails
 
-#!/bin/bash
-# create_swap.sh - Script to create and enable a 2GB swap file
+# create_swap.sh - Script to create and enable a 4GB swap file
 
-
-#!/bin/bash
 SWAPFILE=/swapfile
 SIZE=4G
 
@@ -47,16 +44,15 @@ echo "Swap check complete. Current swap status:"
 sudo swapon --show
 free -h
 
+# Install git and Python dependencies for Linux Mint (Debian/Ubuntu based)
+echo "Updating package list..."
+sudo apt update -y
 
-# Install git
-echo "Installing Git..."
-sudo yum makecache -y
-sudo yum install -y git python3 python3-pip
+echo "Installing Git, Python3, and pip..."
+sudo apt install -y git python3 python3-pip
 
 echo "Reinstalling pkg resources..."
-sudo yum reinstall -y python3-setuptools
-
-
+sudo apt install --reinstall -y python3-setuptools
 
 echo "Printing git version"
 git --version
@@ -65,7 +61,6 @@ git --version
 REPO_URL="https://github.com/Brianthe2nd/aaron_2.git"
 
 REPO_NAME=$(basename "$REPO_URL" .git)
-
 
 # Clone/update main repo
 if [ -d "$REPO_NAME" ]; then
@@ -78,37 +73,32 @@ else
     cd "$REPO_NAME"
 fi
 
-echo "Installing ytdlp"
-# sudo apt install -y yt-dlp
+echo "Installing yt-dlp"
 sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
 sudo chmod a+rx /usr/local/bin/yt-dlp
 
-echo "Installing python3-venv"
-# sudo apt install -y python3-venv
-sudo yum install -y python3 python3-virtualenv
+echo "Installing python3-venv for Linux Mint..."
+sudo apt install -y python3-venv
 
-echo "installing GL lib"
-sudo yum install -y mesa-libGL
-
+echo "Installing OpenGL library for Linux Mint..."
+sudo apt install libgl1-mesa-dev libglu1-mesa-dev
 
 
 echo "Creating Python virtual environment..."
 python3 -m venv .venv
 source .venv/bin/activate
 
-echo "installing setup tools"
+echo "Installing setup tools"
 pip3 install --upgrade setuptools
 
-
-
-echo "Installing camgear"
+echo "Installing camgear (vidgear)"
 pip install -U vidgear[core]
 
 echo "Installing requirements"
 pip install -r requirements.txt
 
-# Run main.py in background
-echo "Running main.py in background..."
+# Run driver.py in background
+echo "Running driver.py in background..."
 nohup .venv/bin/python driver.py > main.log 2>&1 &
 
-# .venv/bin/python driver.py 
+echo "Installation complete! Check main.log for output."
