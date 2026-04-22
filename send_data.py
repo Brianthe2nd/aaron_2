@@ -43,7 +43,7 @@ def send_zipped_file(zip_file):
     return link.url
 
 
-send_zipped_file("run.bash")
+# send_zipped_file("run.bash")
 
 # send_zipped_file(
 #     key_file="C://users/Brayo/Downloads/my_c71.pem",
